@@ -12,8 +12,10 @@
 }
 
 primary-bg{
-    background-color: #F1F1F3;
+    background-color: rgba(241, 241, 243, 1);
 }
+
+
 /* header style */
 header{
     max-width: 1280px;
@@ -125,5 +127,124 @@ nav button {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
+
+
+/* vision section */
+
+.vision-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.vision-title-description{
+    font-weight: 400px;
+    font-size: 16px;
+    margin-top: 32px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    /* padding: 32px; */   
+}
+
+.vision-1{
+    
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+}
+.vision-2{
+    
+    padding: 32px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+}
+
+
+.vision-3{
+    
+    padding: 24px;
+    background-color:#F7EBCF;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+}
+
+.btn-primary-1{
+
+    padding: 11px 20px;
+    border-radius: 8px;
+    border-color: #5490F5;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    margin-top: auto;
+}
+.btn-primary-2{
+
+    padding: 11px 20px;
+    border-radius: 8px;
+    border-color: #09A15C;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    margin-top: auto;
+}
+.btn-primary-3{
+
+    padding: 11px 20px;
+    border-radius: 8px;
+    border-color: #FFC239;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    margin-top: auto;
+}
+
+
+/* content section */
+
+.content{
+    margin-top: 32PX;
+    padding: 24px 48px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16PX;
+    border: 1px solid #FFFFFF;
+    gap: 24px;
+}
+
+.content-description{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.content-name{
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.content-title{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
+
+}
+
+
 
 
