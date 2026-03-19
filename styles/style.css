@@ -245,6 +245,82 @@ nav button {
 
 }
 
+/* news card style  */
+
+.news{
+    margin-top: 80px;
+    
+}
+
+.news-head{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.news-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-image{
+    max-width: 408px;
+    max-height:306px ;
+    border-radius: 24px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.news-card-box{
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.news-card-container-1 , .news-card-container-2 {
+    display: flex;
+    padding: 48px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 24px;
+    box-shadow:  0px  4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.news-card{
+    max-width: 744px;
+   align-items: center;
+   justify-content: center;
+   margin-top: 56px;
+}
+.news-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+.title-date{
+    font-weight :400px; 
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-description{
+     font-weight :400px; 
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.btn-news{
+    padding: 13px 26px ;
+    border-radius: 8px;
+    font-weight: 600PX;
+    font-size: 18PX;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-color: #006A50;
+    margin-bottom: 56px;
+   
+
+}
+
 
 
 
