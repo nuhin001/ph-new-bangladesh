@@ -115,9 +115,7 @@ nav button {
 .pillars-container{
     display: flex;
     gap : 24px;
-    margin-top: 32px;
-    
-    
+    margin-top: 32px;   
 
 }
 .pillar{
@@ -222,6 +220,7 @@ nav button {
     border-radius: 16PX;
     border: 1px solid #FFFFFF;
     gap: 24px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .content-description{
@@ -247,10 +246,6 @@ nav button {
 
 /* news card style  */
 
-.news{
-    margin-top: 80px;
-    
-}
 
 .news-head{
     font-weight: bold;
@@ -283,7 +278,11 @@ nav button {
     align-items: center;
     gap: 24px;
     border-radius: 24px;
+    margin-bottom: 24px;
     box-shadow:  0px  4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 1);
+
+
 }
 
 .news-card{
@@ -317,8 +316,6 @@ nav button {
     background-color: #006A50;
     border-color: #006A50;
     margin-bottom: 56px;
-   
-
 }
 
 
